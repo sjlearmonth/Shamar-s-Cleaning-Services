@@ -72,8 +72,8 @@ if (strlen($_POST['firstName']) > 0 ||
     $SMSMessage .= "Enquiry Message: " . $enquiryMessage;
     
     // Build array for API call
-    $recipientPhoneNumber = "447971818756";
-    // $recipientPhoneNumber = "447757782537";
+    // $recipientPhoneNumber = "447359256717";
+    $recipientPhoneNumber = "447757782537";
     $data = array("username" => "stephen.j.learmonth@gmail.com", "key" => "8C32B75C-35A6-C906-5A04-A6CD05141B11", "to" => $recipientPhoneNumber, "senderid" => $senderid, "message" => $SMSMessage);
     
     $ch = curl_init();
@@ -101,12 +101,12 @@ if (strlen($_POST['firstName']) > 0 ||
     ////////////////////////////////////
 
     // Build email addresses of recipients
-    $emailTo = 'jamespgunderwood@hotmail.com';
-    // $emailTo = 'stephen.j.learmonth@gmail.com';
-    $emailDev = 'jamespgunderwoodenquiries@gmail.com';
+    // $emailTo = 'tashiansaratan@gmail.com';
+    $emailTo = 'stephen.j.learmonth@gmail.com';
+    $emailDev = 'tashiansaratanenquiries@gmail.com';
 
     // Build email subject
-    $emailSubject = "You have a physiotherapy enquiry!";
+    $emailSubject = "You have a cleaning enquiry!";
     
     // Build the email body
     $emailMessage = "You have a message from a potential client. Here are the details.". "<br /><br />";
