@@ -24,13 +24,15 @@ img {
     height: auto;
 }
 
-ul {
-    display: table;
-    margin: 0 auto;
-}
-
 li {
     font-size: 1.2rem;
+}
+
+a {
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    color: black;
 }
 
 .services-content {
@@ -129,6 +131,6 @@ footer {
 
 svg {
     position: absolute;
-    bottom: -320%;
+    bottom: -314%;
     z-index: -1;
 }
