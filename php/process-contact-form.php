@@ -1,5 +1,7 @@
 <?php
 
+echo "<script type='text/javascript'>alert('Thank you but this website is currently not accepting enquiries.');window.location.href='/index.html';</script>";
+
 // Check if at least one field is not empty
 if (strlen($_POST['firstName']) > 0 ||
     strlen($_POST['lastName']) > 0 ||
